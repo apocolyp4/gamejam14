@@ -59,4 +59,29 @@
       <Name>MonoGame.Framework.PSMobile</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinDif.xnb">
+      <Link>Content\WoodCabinDif.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinDif_0.xnb">
+      <Link>Content\WoodCabinDif_0.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinNM.xnb">
+      <Link>Content\WoodCabinNM.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinSM.xnb">
+      <Link>Content\WoodCabinSM.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodenCabinFbx.xnb">
+      <Link>Content\WoodenCabinFbx.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
