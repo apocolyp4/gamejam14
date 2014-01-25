@@ -79,26 +79,6 @@ namespace AssWhipSoftware
             gameState = gameState.ExitState();
             gameState.Update();
 
-            debugText = "";
-
-            if (InputHandler.NextEvent != null)
-            {
-                if (InputHandler.NextEvent.State == InputState.JUMP)
-                {
-                    InputHandler.RemoveEvent(InputHandler.NextEvent);
-                    debugText = "Left";
-                }
-                else
-                {
-                    debugText = "Other";
-                    InputHandler.RemoveEvent(InputHandler.NextEvent);
-                }
-            }
-            else
-            {
-                //debugText = "Nothing";
-            }
-
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 

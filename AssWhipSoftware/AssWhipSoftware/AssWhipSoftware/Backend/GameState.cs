@@ -12,15 +12,36 @@ namespace AssWhipSoftware.Backend
     {
         public void Update()
         {
-            UpdateObject();
-            UpdateInput();
-            UpdateUI();
+            if (ScreenHandler.NextScreen != null)
+            {
+                if (!ScreenHandler.NextScreen.isLive)
+                {
+                    ScreenHandler.NextScreen.Update();
+                }
+                else
+                {
+                    UpdateObject();
+                    ScreenHandler.NextScreen.Update();
+                    UpdateUI();
+                }
+            }
+            else
+            {
+                UpdateObject();
+                UpdateInput();
+                UpdateUI();
+            }
         }
 
         public void Draw(SpriteBatch SpriteBatch, ContentManager Content)
         {
             DrawObjects(SpriteBatch, Content);
             DrawUI(SpriteBatch, Content);
+            if (ScreenHandler.NextScreen != null)
+            {
+                ScreenHandler.NextScreen.Draw(SpriteBatch, Content);
+            }
+
         }
 
         public virtual void UpdateObject() { }

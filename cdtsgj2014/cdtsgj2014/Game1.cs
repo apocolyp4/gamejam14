@@ -1,35 +1,38 @@
-﻿#region Using Statements
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
-#endregion
+using Microsoft.Xna.Framework.Media;
+using AssWhipSoftware.Backend;
 
-namespace cdtsgj2014
+namespace AssWhipSoftware
 {
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class Game1 : Game
+    /// 
+
+    public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Model myModel;
-        float aspectRatio = 1.0f;
-        Vector3 cameraPosition = new Vector3(0.0f, 50.0f, 400.0f);
-        Vector3 modelPosition = Vector3.Zero;
-        float modelRotation = 0.0f;
+        GameState gameState;
+        SpriteFont defaultFont;
+        Input gameInput = new Input();
+        string debugText;
+        Player player1 = new Player();
 
 
         public Game1()
-            : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            debugText = "";
         }
 
         /// <summary>
@@ -41,7 +44,8 @@ namespace cdtsgj2014
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            spriteBatch = new SpriteBatch(this.GraphicsDevice);
+            gameState = new GamePlay();
             base.Initialize();
         }
 
@@ -51,12 +55,8 @@ namespace cdtsgj2014
         /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
-            myModel = Content.Load<Model>("WoodenCabinFbx");
-
-
-            // TODO: use this.Content to load your game content here
+            defaultFont = Content.Load<SpriteFont>("SpriteFont1");
+            player1.Texture = Content.Load<Texture2D>("player");
         }
 
         /// <summary>
@@ -75,8 +75,14 @@ namespace cdtsgj2014
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
+            // Allows the game to exit
+            gameInput.Update();
+            gameState = gameState.ExitState();
+            gameState.Update();
+
+
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+                this.Exit();
 
             // TODO: Add your update logic here
 
@@ -89,35 +95,12 @@ namespace cdtsgj2014
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.DarkOliveGreen);
-
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+            gameState.Draw(spriteBatch, Content);
             // TODO: Add your drawing code here
-
-            Matrix[] transforms = new Matrix[myModel.Bones.Count];
-            myModel.CopyAbsoluteBoneTransformsTo(transforms);
-
-            // Draw the model. A model can have multiple meshes, so loop.
-            foreach (ModelMesh mesh in myModel.Meshes)
-            {
-                // This is where the mesh orientation is set, as well 
-                // as our camera and projection.
-                foreach (BasicEffect effect in mesh.Effects)
-                {
-                    effect.EnableDefaultLighting();
-                    effect.World = transforms[mesh.ParentBone.Index] *
-                        Matrix.CreateRotationY(modelRotation)
-                        * Matrix.CreateTranslation(modelPosition);
-                    effect.View = Matrix.CreateLookAt(cameraPosition,
-                        Vector3.Zero, Vector3.Up);
-                    effect.Projection = Matrix.CreatePerspectiveFieldOfView(
-                        MathHelper.ToRadians(45.0f), aspectRatio,
-                        1.0f, 10000.0f);
-                }
-                // Draw the mesh, using the effects set above.
-                mesh.Draw();
-            }
-
-
+            spriteBatch.Begin();
+            spriteBatch.DrawString(defaultFont, debugText, new Vector2(10, 10), Color.White);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
