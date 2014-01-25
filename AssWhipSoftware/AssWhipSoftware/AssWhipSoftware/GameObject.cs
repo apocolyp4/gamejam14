@@ -95,7 +95,7 @@ namespace AssWhipSoftware
             return velocity;
         }
 
-        public void setPosition(Vector2 newVelocity)
+        public void setVelocity(Vector2 newVelocity)
         {
             velocity = newVelocity;
         }

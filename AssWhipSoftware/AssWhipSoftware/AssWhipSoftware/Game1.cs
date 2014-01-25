@@ -21,12 +21,17 @@ namespace AssWhipSoftware
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        private GameState gameState;
+        GameState gameState;
+        SpriteFont defaultFont;
+        Input gameInput = new Input();
+        string debugText;
+
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            debugText = "";
         }
 
         /// <summary>
@@ -38,7 +43,7 @@ namespace AssWhipSoftware
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            SpriteBatch spriteBatch = new SpriteBatch(this.GraphicsDevice);
+            spriteBatch = new SpriteBatch(this.GraphicsDevice);
             gameState = new GamePlay();
             base.Initialize();
         }
@@ -49,9 +54,7 @@ namespace AssWhipSoftware
         /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
-
-            // TODO: use this.Content to load your game content here
+            defaultFont = Content.Load<SpriteFont>("SpriteFont1");
         }
 
         /// <summary>
@@ -71,9 +74,31 @@ namespace AssWhipSoftware
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-
+            gameInput.Update();
+            
             gameState = gameState.ExitState();
             gameState.Update();
+
+            debugText = "";
+
+            if (InputHandler.NextEvent != null)
+            {
+                if (InputHandler.NextEvent.State == InputState.JUMP)
+                {
+                    InputHandler.RemoveEvent(InputHandler.NextEvent);
+                    debugText = "Left";
+                }
+                else
+                {
+                    debugText = "Other";
+                    InputHandler.RemoveEvent(InputHandler.NextEvent);
+                }
+            }
+            else
+            {
+                //debugText = "Nothing";
+            }
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
@@ -91,7 +116,9 @@ namespace AssWhipSoftware
             GraphicsDevice.Clear(Color.CornflowerBlue);
             gameState.Draw(spriteBatch, Content);
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            spriteBatch.DrawString(defaultFont, debugText, new Vector2(10, 10), Color.White);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
