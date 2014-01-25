@@ -23,9 +23,8 @@ namespace AssWhipSoftware
         SpriteBatch spriteBatch;
         GameState gameState;
         SpriteFont defaultFont;
-        Input gameInput = new Input();
+        InputClass gameInput = new InputClass();
         string debugText;
-        Player player1 = new Player();
 
 
         public Game1()
@@ -56,7 +55,6 @@ namespace AssWhipSoftware
         protected override void LoadContent()
         {
             defaultFont = Content.Load<SpriteFont>("SpriteFont1");
-            player1.Texture = Content.Load<Texture2D>("player");
         }
 
         /// <summary>
@@ -77,9 +75,9 @@ namespace AssWhipSoftware
         {
             // Allows the game to exit
             gameInput.Update();
+            
             gameState = gameState.ExitState();
             gameState.Update();
-
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();

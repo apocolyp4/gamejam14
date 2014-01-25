@@ -14,66 +14,90 @@ namespace AssWhipSoftware
 {
     abstract class GameObject
     {
-        private float x;
-        private float y;
+        private Vector2 position;
         private Texture2D texture;
         private float scale;
         private float angle;
-        private float xVel;
-        private float yVel;
+        private Vector2 velocity; 
         
-        public Texture2D Texture
+        public Texture2D getTexture()
         {
-            get {return texture;}
-            set {texture = value;}
+            return texture;
         }
 
-        public float X
+        public void setTexture(Texture2D newTexture)
         {
-            get {return x;}
-            set {x = value;}
+            texture = newTexture;
         }
 
-        public float Y
+        public Vector2 getPosition()
         {
-            get {return y;}
-            set {y = value;}
+            return position;
         }
 
-
-        public float Width
+        public void setPosition(Vector2 newPosition)
         {
-            get{return texture.Width;}
+            position = newPosition;
         }
 
-        public float Height
+        public float getX()
         {
-            get {return texture.Height;}
+            return position.X;
         }
 
-        public float Scale
+        public void setX(float newX)
         {
-            get {return scale;}
-            set {scale = value;}
+            position.X = newX;
         }
 
-        public float Angle
+        public float getY()
         {
-            get {return angle;}
-            set {angle = value;}
+            return position.Y;
         }
 
-        public float XVel
+        public void setY(float newY)
         {
-            get {return xVel;}
-            set {xVel = value;}
+            position.Y = newY;
         }
 
-        public float YVel
+        public float getWidth()
         {
-            get { return yVel; }
-            set { yVel = value; }
+            return texture.Width;
         }
 
+        public float getHeight()
+        {
+            return texture.Height;
+        }
+
+        public float getScale()
+        {
+            return scale;
+        }
+
+        public void setScale(float newScale)
+        {
+            scale = newScale;
+        }
+
+        public float getAngle()
+        {
+            return angle;
+        }
+
+        public void setAngle(float newAngle)
+        {
+            angle = newAngle;
+        }
+
+        public Vector2 getVelocity()
+        {
+            return velocity;
+        }
+
+        public void setVelocity(Vector2 newVelocity)
+        {
+            velocity = newVelocity;
+        }
     }
 }

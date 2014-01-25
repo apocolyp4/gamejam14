@@ -40,6 +40,36 @@
     <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Game1.cs">
       <Link>Game1.cs</Link>
     </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\CollisionDetection.cs">
+      <Link>CollisionDetection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\GameObject.cs">
+      <Link>GameObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\InputEvent.cs">
+      <Link>InputEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\InputHandler.cs">
+      <Link>InputHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\PauseScreen.cs">
+      <Link>PauseScreen.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Screen.cs">
+      <Link>Screen.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\ScreenHandler.cs">
+      <Link>ScreenHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Backend\GamePlay.cs">
+      <Link>Backend\GamePlay.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Backend\GameState.cs">
+      <Link>Backend\GameState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Backend\InputClass.cs">
+      <Link>Backend\InputClass.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ShaderProgram Include="shaders\Simple.fcg" />
@@ -61,27 +91,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
+    <Folder Include="Backend\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinDif.xnb">
-      <Link>Content\WoodCabinDif.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <None Include="..\..\cdtsgj2014\cdtsgj2014\Icon.ico">
+      <Link>Icon.ico</Link>
     </None>
-    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinDif_0.xnb">
-      <Link>Content\WoodCabinDif_0.xnb</Link>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Debug\Content\SpriteFont1.xnb">
+      <Link>Content\SpriteFont1.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinNM.xnb">
-      <Link>Content\WoodCabinNM.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodCabinSM.xnb">
-      <Link>Content\WoodCabinSM.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="..\..\cdtsgj2014\cdtsgj2014\bin\WindowsGL\Debug\WoodenCabinFbx.xnb">
-      <Link>Content\WoodenCabinFbx.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 </Project>

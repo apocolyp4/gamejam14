@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="cdtgj14\AppMain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="f:\gamejam14\gamejam14\MonoGame\MonoGame.Framework\Content\ContentManager.cs">
     <Files>
-      <File FileName="cdtgj14\AppMain.cs" Line="8" Column="1" />
+      <File FileName="cdtgj14\AppMain.cs" Line="11" Column="20" />
+      <File FileName="..\cdtsgj2014\cdtsgj2014\Game1.cs" Line="13" Column="11" />
+      <File FileName="f:\gamejam14\gamejam14\MonoGame\MonoGame.Framework\Content\ContentManager.cs" Line="313" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

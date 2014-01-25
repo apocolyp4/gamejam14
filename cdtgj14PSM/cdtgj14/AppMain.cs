@@ -6,7 +6,7 @@ using Sce.PlayStation.Core.Environment;
 using Sce.PlayStation.Core.Graphics;
 using Sce.PlayStation.Core.Input;
 
-namespace cdtsgj2014
+namespace AssWhipSoftware
 {
 	public class AppMain
 	{
