@@ -11,7 +11,7 @@ namespace AssWhipSoftware
 
         public static Screen NextScreen
         {
-            get { try { return screens[screens.Count - 1]; } catch { Console.WriteLine("No Screen");  return null; } }
+            get { try { return screens[screens.Count - 1]; } catch { /*Console.WriteLine("No Screen");*/  return null; } }
             set { screens.Add(value); }
         }
 

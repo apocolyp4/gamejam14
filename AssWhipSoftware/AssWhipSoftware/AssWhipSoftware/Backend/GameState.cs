@@ -33,13 +33,13 @@ namespace AssWhipSoftware.Backend
             }
         }
 
-        public void Draw(SpriteBatch SpriteBatch, ContentManager Content)
+        public void Draw()
         {
-            DrawObjects(SpriteBatch, Content);
-            DrawUI(SpriteBatch, Content);
+            DrawObjects();
+            DrawUI();
             if (ScreenHandler.NextScreen != null)
             {
-                ScreenHandler.NextScreen.Draw(SpriteBatch, Content);
+                ScreenHandler.NextScreen.Draw();
             }
 
         }
@@ -47,8 +47,8 @@ namespace AssWhipSoftware.Backend
         public virtual void UpdateObject() { }
         public virtual void UpdateInput() { }
         public virtual void UpdateUI() { }
-        public virtual void DrawObjects(SpriteBatch SpriteBatch, ContentManager Content) { }
-        public virtual void DrawUI(SpriteBatch SpriteBatch, ContentManager Content) { }
+        public virtual void DrawObjects() { }
+        public virtual void DrawUI() { }
 
         public abstract GameState ExitState();
     }

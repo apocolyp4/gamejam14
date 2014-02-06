@@ -18,12 +18,12 @@ namespace AssWhipSoftware
                 }
                 catch
                 {
-                    Console.WriteLine("No Event");
+                   // Console.WriteLine("No Event");
                     return null;
                 }
             }
             set { Events.Add(value);
-            Console.WriteLine("adding Event");
+            //Console.WriteLine("adding Event");
             }
             
         }
@@ -39,7 +39,8 @@ namespace AssWhipSoftware
         PRESSED,
         HELD,
         RELEASED,
-        MULTIPLE
+        MULTIPLE,
+        BEING_HELD
     }
 
     public enum InputState

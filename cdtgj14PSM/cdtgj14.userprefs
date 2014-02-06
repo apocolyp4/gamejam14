@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="f:\gamejam14\gamejam14\MonoGame\MonoGame.Framework\Content\ContentManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Level.cs">
     <Files>
-      <File FileName="cdtgj14\AppMain.cs" Line="11" Column="20" />
-      <File FileName="..\cdtsgj2014\cdtsgj2014\Game1.cs" Line="13" Column="11" />
-      <File FileName="f:\gamejam14\gamejam14\MonoGame\MonoGame.Framework\Content\ContentManager.cs" Line="313" Column="13" />
+      <File FileName="d:\Programming\XNA\Lehoi the Lion\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\GamePlay.cs" Line="188" Column="10" />
+      <File FileName="..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\MainMenu.cs" Line="42" Column="27" />
+      <File FileName="..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Game1.cs" Line="97" Column="4" />
+      <File FileName="..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Level.cs" Line="129" Column="11" />
+      <File FileName="d:\Programming\XNA\Lehoi the Lion\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\GameObject.cs" Line="197" Column="1" />
+      <File FileName="..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Tile.cs" Line="15" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

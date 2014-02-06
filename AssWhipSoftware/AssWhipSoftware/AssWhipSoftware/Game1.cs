@@ -9,6 +9,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using AssWhipSoftware.Backend;
+using Microsoft.Xna.Framework.Storage;
+using System.IO;
 
 namespace AssWhipSoftware
 {
@@ -23,13 +25,16 @@ namespace AssWhipSoftware
         SpriteBatch spriteBatch;
         GameState gameState;
         SpriteFont defaultFont;
-        Input gameInput = new Input();
+        InputClass gameInput = new InputClass();
         string debugText;
 
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = false;
+            graphics.PreferredBackBufferWidth = 854;
+            graphics.PreferredBackBufferHeight = 480;
             Content.RootDirectory = "Content";
             debugText = "";
         }
@@ -44,7 +49,12 @@ namespace AssWhipSoftware
         {
             // TODO: Add your initialization logic here
             spriteBatch = new SpriteBatch(this.GraphicsDevice);
-            gameState = new GamePlay();
+            Settings.SpriteBatch = spriteBatch;
+            Settings.Content = Content;
+            Settings.GraphicsDevice = this.GraphicsDevice;
+            Settings.gameReference = this;
+           // gameState = new GamePlay();
+            gameState = new MainMenu();
             base.Initialize();
         }
 
@@ -54,7 +64,7 @@ namespace AssWhipSoftware
         /// </summary>
         protected override void LoadContent()
         {
-            defaultFont = Content.Load<SpriteFont>("SpriteFont1");
+            Settings.defaultFont = Content.Load<SpriteFont>("SpriteFont1");
         }
 
         /// <summary>
@@ -73,6 +83,7 @@ namespace AssWhipSoftware
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            Settings.GameTime = gameTime;
             // Allows the game to exit
             gameInput.Update();
             
@@ -94,11 +105,9 @@ namespace AssWhipSoftware
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            gameState.Draw(spriteBatch, Content);
+            gameState.Draw();
             // TODO: Add your drawing code here
-            spriteBatch.Begin();
-            spriteBatch.DrawString(defaultFont, debugText, new Vector2(10, 10), Color.White);
-            spriteBatch.End();
+
             base.Draw(gameTime);
         }
     }

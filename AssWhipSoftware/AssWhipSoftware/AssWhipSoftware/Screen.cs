@@ -14,6 +14,6 @@ namespace AssWhipSoftware
             get { return true; }
         }
         public abstract void Update();
-        public abstract void Draw(SpriteBatch SpriteBatch, ContentManager Content); 
+        public abstract void Draw(); 
     }
 }

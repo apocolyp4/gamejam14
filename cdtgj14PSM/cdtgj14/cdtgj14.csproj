@@ -37,38 +37,92 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppMain.cs" />
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Game1.cs">
-      <Link>Game1.cs</Link>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\EnemyAI.cs">
+      <Link>Backend\EnemyAI.cs</Link>
     </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\CollisionDetection.cs">
-      <Link>CollisionDetection.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\GameObject.cs">
-      <Link>GameObject.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\InputEvent.cs">
-      <Link>InputEvent.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\InputHandler.cs">
-      <Link>InputHandler.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\PauseScreen.cs">
-      <Link>PauseScreen.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Screen.cs">
-      <Link>Screen.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\ScreenHandler.cs">
-      <Link>ScreenHandler.cs</Link>
-    </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Backend\GamePlay.cs">
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\GamePlay.cs">
       <Link>Backend\GamePlay.cs</Link>
     </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Backend\GameState.cs">
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\GameState.cs">
       <Link>Backend\GameState.cs</Link>
     </Compile>
-    <Compile Include="..\..\cdtsgj2014\cdtsgj2014\Backend\InputClass.cs">
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\MainMenu.cs">
+      <Link>Backend\MainMenu.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\Options.cs">
+      <Link>Backend\Options.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Animation.cs">
+      <Link>Animation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\AttackingTarget.cs">
+      <Link>AttackingTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\CollisionDetection.cs">
+      <Link>CollisionDetection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\ControlsState.cs">
+      <Link>ControlsState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Credits.cs">
+      <Link>Credits.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Enemies.cs">
+      <Link>Enemies.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Game1.cs">
+      <Link>Game1.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\GameObject.cs">
+      <Link>GameObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\InputEvent.cs">
+      <Link>InputEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\InputHandler.cs">
+      <Link>InputHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Level.cs">
+      <Link>Level.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\MessageBox.cs">
+      <Link>MessageBox.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\MovingLeft.cs">
+      <Link>MovingLeft.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\MovingRight.cs">
+      <Link>MovingRight.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\PauseScreen.cs">
+      <Link>PauseScreen.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Player.cs">
+      <Link>Player.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Screen.cs">
+      <Link>Screen.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\ScreenHandler.cs">
+      <Link>ScreenHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\SeenTarget.cs">
+      <Link>SeenTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Settings.cs">
+      <Link>Settings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Tile.cs">
+      <Link>Tile.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\UIElement.cs">
+      <Link>UIElement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\InputClass.cs">
       <Link>Backend\InputClass.cs</Link>
+    </Compile>
+    <Compile Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\Backend\Controls.cs">
+      <Link>Backend\Controls.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -92,15 +146,635 @@
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Backend\" />
+    <Folder Include="Content\Tiles\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\cdtsgj2014\cdtsgj2014\Icon.ico">
       <Link>Icon.ico</Link>
     </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\TestLevel.txt">
+      <Link>Content\TestLevel.txt</Link>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\9e.xnb">
+      <Link>Content\Tiles\9e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\9.xnb">
+      <Link>Content\Tiles\9.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\8e.xnb">
+      <Link>Content\Tiles\8e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\8.xnb">
+      <Link>Content\Tiles\8.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\7e.xnb">
+      <Link>Content\Tiles\7e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\7.xnb">
+      <Link>Content\Tiles\7.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\6.xnb">
+      <Link>Content\Tiles\6.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\5.xnb">
+      <Link>Content\Tiles\5.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\4e.xnb">
+      <Link>Content\Tiles\4e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\4.xnb">
+      <Link>Content\Tiles\4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Debug\Content\SpriteFont1.xnb">
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\8.xnb">
+      <Link>Content\8.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundBad1.xnb">
+      <Link>Content\BackgroundBad1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundBad2.xnb">
+      <Link>Content\BackgroundBad2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundBad3.xnb">
+      <Link>Content\BackgroundBad3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundBad4.xnb">
+      <Link>Content\BackgroundBad4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundGood1.xnb">
+      <Link>Content\BackgroundGood1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundGood2.xnb">
+      <Link>Content\BackgroundGood2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundGood3.xnb">
+      <Link>Content\BackgroundGood3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BackgroundGood4.xnb">
+      <Link>Content\BackgroundGood4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BadBackground.xnb">
+      <Link>Content\BadBackground.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\BlackVortex.xnb">
+      <Link>Content\BlackVortex.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\CreditScreen.xnb">
+      <Link>Content\CreditScreen.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\CreditsDeSelect.xnb">
+      <Link>Content\CreditsDeSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\CreditsSelect.xnb">
+      <Link>Content\CreditsSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Door-30.xnb">
+      <Link>Content\Door-30.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Door-31.xnb">
+      <Link>Content\Door-31.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\GoodBackground.xnb">
+      <Link>Content\GoodBackground.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\InstructionsDeSelect.xnb">
+      <Link>Content\InstructionsDeSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\InstructionsScreen.xnb">
+      <Link>Content\InstructionsScreen.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\InstructionsSelect.xnb">
+      <Link>Content\InstructionsSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Level0.txt">
+      <Link>Content\Level0.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Level1.txt">
+      <Link>Content\Level1.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Level2.txt">
+      <Link>Content\Level2.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Level3.txt">
+      <Link>Content\Level3.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadArseWhip1.xnb">
+      <Link>Content\LionBadArseWhip1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadArseWhip2.xnb">
+      <Link>Content\LionBadArseWhip2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadArseWhip3.xnb">
+      <Link>Content\LionBadArseWhip3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadBite1.xnb">
+      <Link>Content\LionBadBite1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadBite2.xnb">
+      <Link>Content\LionBadBite2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadBite3.xnb">
+      <Link>Content\LionBadBite3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadBite4.xnb">
+      <Link>Content\LionBadBite4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadClaw1.xnb">
+      <Link>Content\LionBadClaw1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadClaw2.xnb">
+      <Link>Content\LionBadClaw2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadClaw3.xnb">
+      <Link>Content\LionBadClaw3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadJump2.xnb">
+      <Link>Content\LionBadJump2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk1.xnb">
+      <Link>Content\LionBadWalk1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk2.xnb">
+      <Link>Content\LionBadWalk2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk3.xnb">
+      <Link>Content\LionBadWalk3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk4.xnb">
+      <Link>Content\LionBadWalk4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk5.xnb">
+      <Link>Content\LionBadWalk5.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk6.xnb">
+      <Link>Content\LionBadWalk6.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk7.xnb">
+      <Link>Content\LionBadWalk7.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionBadWalk8.xnb">
+      <Link>Content\LionBadWalk8.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodArseWhip1.xnb">
+      <Link>Content\LionGoodArseWhip1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodArseWhip2.xnb">
+      <Link>Content\LionGoodArseWhip2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodArseWhip3.xnb">
+      <Link>Content\LionGoodArseWhip3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodBite1.xnb">
+      <Link>Content\LionGoodBite1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodBite2.xnb">
+      <Link>Content\LionGoodBite2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodBite3.xnb">
+      <Link>Content\LionGoodBite3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodBite4.xnb">
+      <Link>Content\LionGoodBite4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodClaw1.xnb">
+      <Link>Content\LionGoodClaw1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodClaw2.xnb">
+      <Link>Content\LionGoodClaw2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodClaw3.xnb">
+      <Link>Content\LionGoodClaw3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodJump2.xnb">
+      <Link>Content\LionGoodJump2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk1.xnb">
+      <Link>Content\LionGoodWalk1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk2.xnb">
+      <Link>Content\LionGoodWalk2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk3.xnb">
+      <Link>Content\LionGoodWalk3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk4.xnb">
+      <Link>Content\LionGoodWalk4.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk5.xnb">
+      <Link>Content\LionGoodWalk5.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk6.xnb">
+      <Link>Content\LionGoodWalk6.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk7.xnb">
+      <Link>Content\LionGoodWalk7.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\LionGoodWalk8.xnb">
+      <Link>Content\LionGoodWalk8.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\MenuBackground.xnb">
+      <Link>Content\MenuBackground.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\menubox.xnb">
+      <Link>Content\menubox.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\NewGameDeSelect.xnb">
+      <Link>Content\NewGameDeSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\NewGameSelect.xnb">
+      <Link>Content\NewGameSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\OptionsDeSelect.xnb">
+      <Link>Content\OptionsDeSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\OptionsSelect.xnb">
+      <Link>Content\OptionsSelect.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\player.xnb">
+      <Link>Content\player.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Portrait-10.xnb">
+      <Link>Content\Portrait-10.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Portrait-11.xnb">
+      <Link>Content\Portrait-11.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\SpriteFont1.xnb">
       <Link>Content\SpriteFont1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-10.xnb">
+      <Link>Content\UI-10.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-11.xnb">
+      <Link>Content\UI-11.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-12.xnb">
+      <Link>Content\UI-12.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-13.xnb">
+      <Link>Content\UI-13.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-14.xnb">
+      <Link>Content\UI-14.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-15.xnb">
+      <Link>Content\UI-15.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-16.xnb">
+      <Link>Content\UI-16.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-17.xnb">
+      <Link>Content\UI-17.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-18.xnb">
+      <Link>Content\UI-18.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-19.xnb">
+      <Link>Content\UI-19.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-20.xnb">
+      <Link>Content\UI-20.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-21.xnb">
+      <Link>Content\UI-21.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-22.xnb">
+      <Link>Content\UI-22.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-23.xnb">
+      <Link>Content\UI-23.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-24.xnb">
+      <Link>Content\UI-24.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-25.xnb">
+      <Link>Content\UI-25.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-26.xnb">
+      <Link>Content\UI-26.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\UI-27.xnb">
+      <Link>Content\UI-27.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\15.xnb">
+      <Link>Content\Tiles\15.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\14e.xnb">
+      <Link>Content\Tiles\14e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\14.xnb">
+      <Link>Content\Tiles\14.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\13e.xnb">
+      <Link>Content\Tiles\13e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\13.xnb">
+      <Link>Content\Tiles\13.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\12e.xnb">
+      <Link>Content\Tiles\12e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\12.xnb">
+      <Link>Content\Tiles\12.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\11e.xnb">
+      <Link>Content\Tiles\11e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\11.xnb">
+      <Link>Content\Tiles\11.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\10e.xnb">
+      <Link>Content\Tiles\10e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\10.xnb">
+      <Link>Content\Tiles\10.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\1.xnb">
+      <Link>Content\Tiles\1.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\15e.xnb">
+      <Link>Content\Tiles\15e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\18e.xnb">
+      <Link>Content\Tiles\18e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\18.xnb">
+      <Link>Content\Tiles\18.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\17e.xnb">
+      <Link>Content\Tiles\17e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\17.xnb">
+      <Link>Content\Tiles\17.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\16e.xnb">
+      <Link>Content\Tiles\16e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\16.xnb">
+      <Link>Content\Tiles\16.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\22e.xnb">
+      <Link>Content\Tiles\22e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\22.xnb">
+      <Link>Content\Tiles\22.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\21e.xnb">
+      <Link>Content\Tiles\21e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\21.xnb">
+      <Link>Content\Tiles\21.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\20e.xnb">
+      <Link>Content\Tiles\20e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\20.xnb">
+      <Link>Content\Tiles\20.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\19e.xnb">
+      <Link>Content\Tiles\19e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\19.xnb">
+      <Link>Content\Tiles\19.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\2.xnb">
+      <Link>Content\Tiles\2.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\1e.xnb">
+      <Link>Content\Tiles\1e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\26e.xnb">
+      <Link>Content\Tiles\26e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\26.xnb">
+      <Link>Content\Tiles\26.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\25e.xnb">
+      <Link>Content\Tiles\25e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\25.xnb">
+      <Link>Content\Tiles\25.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\24e.xnb">
+      <Link>Content\Tiles\24e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\24.xnb">
+      <Link>Content\Tiles\24.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\23e.xnb">
+      <Link>Content\Tiles\23e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\23.xnb">
+      <Link>Content\Tiles\23.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\29e.xnb">
+      <Link>Content\Tiles\29e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\29.xnb">
+      <Link>Content\Tiles\29.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\28e.xnb">
+      <Link>Content\Tiles\28e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\28.xnb">
+      <Link>Content\Tiles\28.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\27e.xnb">
+      <Link>Content\Tiles\27e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\27.xnb">
+      <Link>Content\Tiles\27.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\3.xnb">
+      <Link>Content\Tiles\3.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\2e.xnb">
+      <Link>Content\Tiles\2e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\37.xnb">
+      <Link>Content\Tiles\37.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\36.xnb">
+      <Link>Content\Tiles\36.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\35.xnb">
+      <Link>Content\Tiles\35.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\34.xnb">
+      <Link>Content\Tiles\34.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\33.xnb">
+      <Link>Content\Tiles\33.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\30e.xnb">
+      <Link>Content\Tiles\30e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\30.xnb">
+      <Link>Content\Tiles\30.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\3e.xnb">
+      <Link>Content\Tiles\3e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\6e.xnb">
+      <Link>Content\Tiles\6e.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\AssWhipSoftware\AssWhipSoftware\AssWhipSoftware\bin\x86\Release\Content\Tiles\5e.xnb">
+      <Link>Content\Tiles\5e.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
